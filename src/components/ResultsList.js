@@ -9,6 +9,7 @@ const ResultsList = ({ title, results, navigation }) => {
 		return null;
 	}
 
+	console.log(results);
 	return (
 		<View style={styles.container}>
 			<Text style={styles.title}>{title}</Text>
